@@ -1,0 +1,123 @@
+body{
+margin:0;
+padding:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#ececec;
+}
+
+.contenedor{
+width:900px;
+margin:auto;
+background:#dcdcdc;
+padding:20px;
+margin-top:20px;
+}
+
+.area{
+background:white;
+height:300px;
+padding:15px;
+display:flex;
+}
+
+.caja{
+width:30px;
+height:30px;
+margin:4px;
+}
+
+.rojo{
+background:red;
+}
+
+.amarillo{
+background:yellow;
+}
+
+.verde{
+background:green;
+}
+
+.boton{
+text-align:center;
+margin-top:15px;
+}
+
+a{
+background:#1976d2;
+color:white;
+padding:8px 14px;
+text-decoration:none;
+font-size:12px;
+}
+
+/* NIVEL 1 */
+.nivel1{
+justify-content:flex-start;
+align-items:flex-start;
+}
+
+/* NIVEL 2 */
+.nivel2{
+justify-content:flex-end;
+align-items:flex-start;
+}
+
+/* NIVEL 3 */
+.nivel3{
+justify-content:center;
+align-items:flex-start;
+}
+
+/* NIVEL 4 */
+.nivel4{
+justify-content:space-between;
+align-items:flex-start;
+}
+
+/* NIVEL 5 */
+.nivel5{
+justify-content:space-around;
+align-items:flex-start;
+}
+
+/* NIVEL 6 */
+.nivel6{
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row-reverse;
+}
+
+/* NIVEL 7 */
+.nivel7{
+flex-direction:column;
+justify-content:flex-start;
+align-items:flex-start;
+}
+
+/* NIVEL 8 */
+.nivel8{
+flex-direction:column;
+justify-content:flex-start;
+align-items:flex-end;
+}
+
+/* NIVEL 9 */
+.nivel9{
+flex-direction:column;
+justify-content:center;
+align-items:flex-start;
+}
+
+/* NIVEL 10 */
+.nivel10{
+justify-content:center;
+align-items:center;
+}
+
+/* NIVEL 11 */
+.nivel11{
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
